@@ -1,7 +1,11 @@
 import React from "react";
 
 const MealPage = () => {
-  return <div>MealPage</div>;
+  return (
+    <div>
+      <h1>MealPage</h1>
+    </div>
+  );
 };
 
 export default MealPage;
