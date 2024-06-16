@@ -2,7 +2,7 @@ import Link from "next/link";
 import logoImg from "@/assets/logo.png";
 import classes from "./main-header.module.css";
 import Image from "next/image";
-import MainHeaderBackground from "@/components/main-header-background";
+import MainHeaderBackground from "@/components/main-header/main-header-background";
 
 const MainHeader = () => {
   return (
@@ -16,10 +16,10 @@ const MainHeader = () => {
         <nav className={classes.nav}>
           <ul>
             <li>
-              <Link href="/meals">음식들</Link>
+              <Link href="/meals">meals</Link>
             </li>
             <li>
-              <Link href="/community">커뮤니티</Link>
+              <Link href="/community">community</Link>
             </li>
           </ul>
         </nav>
