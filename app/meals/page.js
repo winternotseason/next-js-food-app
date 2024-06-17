@@ -4,6 +4,12 @@ import Link from "next/link";
 import { Suspense } from "react";
 import classes from "./page.module.css";
 
+export const metadata = {
+  title: "All Meals",
+  description: "Delicious meals, shared by a food-loving community.",
+};
+
+
 /* 데이터를 가져오는 부분을 아웃소싱 */
 async function Meals() {
   const meals = await getMeals();
